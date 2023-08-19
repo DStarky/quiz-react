@@ -1,0 +1,24 @@
+.Title {
+  margin: 20px 0px;
+  font-size: 40px;
+}
+
+.Answer {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  &:hover {
+    border-color: #bbb;
+  }
+
+  &:active{
+    border-color: #555;
+  }
+}

@@ -1,0 +1,46 @@
+.Parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.Title {
+  margin: 20px 0px;
+  font-size: 40px;
+}
+
+.Text {
+  font-size: 20px;
+
+  & span {
+    font-weight: 900;
+  }
+}
+
+.Icon {
+  width: 100px;
+  height: 100px;
+  transition: transform 1.5s ease;
+  cursor: pointer;
+
+  & path {
+    stroke: #eee;
+    transition: stroke .5s ease;
+  }
+
+  &:hover path {
+    stroke: #555;
+  }
+
+  &:hover {
+    transform: rotate(360deg);
+  }
+}
+
+.Green {
+  color: green;
+}
+
+.Red {
+  color: red;
+}
